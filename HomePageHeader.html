@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Home</title>
 
-<head>
-    <title>Home</title>
-    <style>
-        .navbar {
-            margin-right: 40px;
-            display: flex;
-            gap: 20px;
-            justify-content: flex-end;
-        }
-    </style>
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-<body>
-    <div class="navbar">
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">Home</a>
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">About Us</a>
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">History</a>
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">Give</a>
-    </div>
+        <style>
+            .navbar {
+                font-family: Montserrat, Arial;
+                font-style: bold;
+                margin-top: 30px;
+                margin-right: 100px;
+                margin-left: 200px;
+                display: flex;
+                gap: 70px;
+                justify-content: flex-end;
+            }
+            .prof-picture {
+                width: 74px;
+                margin-right: 20px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="header-grid" style="display: grid; grid-template-columns: 1fr 1fr;">
 
-</body>
+            <img class="prof-picture" src="images.webp" style="position: left;">   
+
+            <div class="navbar">
+
+                <a href="https://www.google.com" style="text-decoration:none; color: black;"
+                    target="_self">Home</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;"
+                    target="_self">About Us</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;"
+                    target="_self">Gallery</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;"
+                    target="_self">History</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;"
+                    target="_self">Give</a>
+            </div>
+        </div>
+        
+    
+    </body>
+</html>
