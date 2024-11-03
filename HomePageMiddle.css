@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.main-section {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px 20px;
+    background: url('img/socialProjectBali8.webp')  center/cover no-repeat;
+    color: white;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.content2 {
+    position: relative;
+    display: flex;
+    align-items: right;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.icon {
+    width: 20%;
+    height: 180px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icon2 {
+    width: 20%;
+    height: 180px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.text h3 {
+    font-size: 1em;
+    margin: 0 0 10px;
+    color: #f9f9f9;
+}
+
+.text p {
+    width: 39%;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #e0e0e0;
+}
