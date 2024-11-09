@@ -3,26 +3,66 @@
 
 <head>
     <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
         .navbar {
-            margin-right: 40px;
+            font-family: Montserrat, Arial;
+            font-style: bold;
+            margin-top: 30px;
+            margin-right: 100px;
+            margin-left: 200px;
             display: flex;
-            gap: 20px;
+            gap: 70px;
             justify-content: flex-end;
+        }
+
+        .prof-picture {
+            width: 74px;
+            margin-right: 20px;
         }
     </style>
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">Home</a>
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">About Us</a>
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">History</a>
-        <a href="https://www.google.com" style="text-decoration:none; color: black;"
-            target="_self">Give</a>
-    </div>
+    <nav>
+        <div class="header-grid" style="display: grid; grid-template-columns: 1fr 1fr;">
+
+            <a href="HomePageHeader.html">
+                <img class="prof-picture" src="images.webp" style="position: left;">
+            </a>
+
+            <div class="navbar">
+
+                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">Home</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">About Us</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">Gallery</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">History</a>
+                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">Give</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <img src="" alt="image">
+        <h1>Social Project Bali</h1>
+        <p>A Bali-based non-profit organization dedicated to advancing education, environmental conservation, &
+            promoting social welfare. It's one of the biggest non-profit organizations in Indonesia.</p>
+        <button>Donate</button>
+        <button>Contact Us</button>
+    </section>
+
+    <footer>
+        <img src="" alt="image">
+        <button>Donate</button>
+        <button>Contact Us</button>
+        <p>This website was created by Code the Change DVC</p>
+    </footer>
+
 
 </body>
+
+</html>
