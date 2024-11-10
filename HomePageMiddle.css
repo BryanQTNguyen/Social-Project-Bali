@@ -60,3 +60,38 @@ body {
     font-weight: bold;
     color: #e0e0e0;
 }
+
+/* Michael */
+
+.section {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;            
+    padding: 0 20px;            
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;                     
+    padding: 20px;            
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.item {
+    text-align: center;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
