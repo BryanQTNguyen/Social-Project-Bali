@@ -9,6 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
+        body{
+            padding: 0;
+            margin: 0;
+
+        }
+
         .navbar {
             font-family: Montserrat, Arial;
             font-style: bold;
@@ -21,8 +27,66 @@
         }
 
         .prof-picture {
-            width: 74px;
+            width: 100px;
             margin-right: 20px;
+            height: 90px
+        }
+
+        .center-text {
+            font-family: Montserrat, Arial;
+            text-align: center;
+            color: white;
+        }
+
+        .header-buttons{
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .footer-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .background{
+            background-image: url(image/socialProjectBali7.webp); 
+            height: 400px; 
+            background-repeat: no-repeat; 
+            background-size: 100%;
+            image-rendering: -webkit-optimize-contrast;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .donate-button, .contact-button {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .donate-button {
+            background-color: #a0f202;
+            color: black;
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-button {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-logo{
+            margin-top: 70px;
+            margin-left: 40px;
         }
     </style>
 </head>
@@ -32,7 +96,7 @@
         <div class="header-grid" style="display: grid; grid-template-columns: 1fr 1fr;">
 
             <a href="HomePageHeader.html">
-                <img class="prof-picture" src="images.webp" style="position: left;">
+                <img class="prof-picture" src="image\socialprojectbali.png" style="position: left;">
             </a>
 
             <div class="navbar">
@@ -47,19 +111,33 @@
     </nav>
 
     <section>
-        <img src="" alt="image">
-        <h1>Social Project Bali</h1>
-        <p>A Bali-based non-profit organization dedicated to advancing education, environmental conservation, &
-            promoting social welfare. It's one of the biggest non-profit organizations in Indonesia.</p>
-        <button>Donate</button>
-        <button>Contact Us</button>
+            <div class = "background">
+
+                <div class = "center-text" style= "font-size: 40px; line-height: 5px; padding-top: 70px;">
+                    <h1>Social Project Bali</h1>
+                </div>
+                
+                <div class = "center-text" style= "font-size: 20px; padding-right: 600px; padding-left: 600px;">
+                    <p>A Bali-based non-profit organization dedicated to advancing education, environmental conservation, &
+                    promoting social welfare. It's one of the biggest non-profit organizations in Indonesia.</p>
+                </div>
+                
+                <div class = "header-buttons" style = "gap: 50px; margin-top: 40px;">
+                    <button class = "donate-button">Donate</button>
+                    <button class = "contact-button">Contact Us</button>
+                </div>
+
+            </div>
     </section>
 
     <footer>
-        <img src="" alt="image">
-        <button>Donate</button>
-        <button>Contact Us</button>
-        <p>This website was created by Code the Change DVC</p>
+        <img class="prof-picture" src="image\socialprojectbali.png" alt="image" style="height: auto;">
+        <div class = "footer-buttons">
+            <button class = "donate-button">Donate</button>
+            <button class = "contact-button" style = "color: black; border: 2px solid black;">Contact Us</button>
+        </div>
+
+        <p style= "display: flex; justify-content: right; padding-right: 5px;">This website was created by Code the Change DVC</p>
     </footer>
 
 
