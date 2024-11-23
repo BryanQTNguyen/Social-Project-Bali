@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.navbar {
+    font-family: Montserrat, Arial;
+    font-style: bold;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding: 35px 25px 0 25px ;
+    margin: 0;
+}
+
+.navbar li a{
+
+    margin: 0;
+    display: inline-block;
+    text-decoration:none; 
+    color: black;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+.prof-picture {
+    width: 100px;
+    margin-right: 20px;
+    height: 90px
+}
+
+.center-text {
+    font-family: Montserrat, Arial;
+    text-align: center;
+    color: white;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.background{
+    background-image: url(image/socialProjectBali7.webp); 
+    height: 400px; 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    image-rendering: -webkit-optimize-contrast;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.donate-button, .contact-button {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.donate-button {
+    background-color: #a0f202;
+    color: black;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-logo{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.main-section {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px 20px;
+    position: relative;
+    background: url('img/socialProjectBali8.webp') center/cover no-repeat; /* Image */
+    background-blend-mode: overlay; /* Blends the two layers */
+    color: white;
+}
+
+.main-section::before {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+  
+}
+
+.content {
+    margin-left: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.icon {
+    width: 20%;
+    height: 180px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icon2 {
+    width: 20%;
+    height: 180px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.text h3 {
+    font-size: 1em;
+    margin: 0 0 10px;
+    color: #f9f9f9;
+}
+
+.text p {
+    width: 39%;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #e0e0e0;
+    width: 300px;
+}
+
+.text2 p {
+    width: 39%;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #e0e0e0;
+    width: 300px;
+
+}
+
+
+.section {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;            
+    padding: 0 20px;            
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;                     
+    padding: 20px;            
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.item {
+    text-align: center;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
