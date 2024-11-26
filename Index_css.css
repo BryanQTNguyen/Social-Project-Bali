@@ -44,8 +44,6 @@ body {
 
 }
 
-
-
 .prof-picture {
     width: 100px;
     margin-right: 20px;
@@ -164,29 +162,29 @@ html{
 
 .text p {
     width: 39%;
-    font-size: 1.3em;
+    font-size: 1.7em;
     font-weight: bold;
     color: #e0e0e0;
-    width: 300px;
+    width: 500px;
 }
 
 .text2 p {
     width: 39%;
-    font-size: 1.3em;
+    font-size: 1.7em;
     font-weight: bold;
     color: #e0e0e0;
-    width: 300px;
+    width: 500px;
 
 }
 
 
 .section {
-    background-color: white;
+    background-color: #D9D9D9;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 100vh;            
+    height: 400px;            
     padding: 0 20px;            
 }
 
@@ -194,16 +192,41 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;                     
+    gap: 40px;                     
     padding: 20px;            
     max-width: 100%;
     overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
-
+.image {
+    width: 270px; /* Adjust the width of the images */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 20px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
 .item {
     text-align: center;
-    width: 200px;
+    width: 100%; 
+    padding: 40px 40px;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Optional: Limit maximum width */
+    border-radius: 10px; /* Optional: Add rounded corners */    
     flex-shrink: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container .item b {
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container .item .text {
+    font-size: 20px;
+    line-height: 1;
+    color: #555;
+    font-family: Arial, sans-serif;
 }
 
 
@@ -226,7 +249,7 @@ html{
     padding-top: 30px;
     color:#f4f4f4;
     font-size: 50px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: Arial, sans-serif;
 
 }
 
@@ -257,6 +280,7 @@ html{
     background-position: center;
     padding: 20px;
     display: flex;
+    height: 600px;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -272,14 +296,14 @@ html{
     top: 0;
     bottom: 0;
     z-index: 0;
-  
 }
 
 .middle-page-top h1 {
+    font-family: Arial, sans-serif;
     color: white;
-    font-size: 3rem;
+    font-size: 3.1rem;
     margin-bottom: 20px;
-    font-weight: lighter;
+    font-weight: bold;
     z-index: 1;
 }
 
@@ -338,9 +362,9 @@ html{
 }
 
 .contact-button {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
+    background-color: #A8FF35;
+    color: black;
+    border: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
