@@ -139,15 +139,15 @@ body {
 }
 
 .icon {
-    width: 20%;
-    height: 180px;
+    width: 15%;
+    height: 250px;
     border-radius: 10px;
     margin-right: 20px;
 }
 
 .icon2 {
-    width: 20%;
-    height: 180px;
+    width: 15%;
+    height: 200px;
     border-radius: 10px;
     margin-right: 20px;
 }
@@ -156,6 +156,10 @@ body {
     font-size: 1em;
     margin: 0 0 10px;
     color: #f9f9f9;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 .text p {
