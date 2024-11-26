@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
     margin: 0;
     padding: 0;
     color: #333;
@@ -16,9 +16,6 @@ body {
     z-index: 1000;
     
 }
-
-
-
 .navbar ul{
     display: flex;
     align-items: center;
@@ -352,13 +349,6 @@ html{
     height: 40px;
     align-items: center;
    
-}
-
-.donate-button {
-    background-color: #a0f202;
-    color: black;
-    border: none;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contact-button {
