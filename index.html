@@ -10,112 +10,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Middle_page</title>
-    <link rel="stylesheet" href="HomePageMiddle.css">
+    <link rel="stylesheet" href="Index_css.css">
 
-
-    <style>
-        body{
-            padding: 0;
-            margin: 0;
-
-        }
-
-        .navbar {
-            font-family: Montserrat, Arial;
-            font-style: bold;
-            margin-top: 30px;
-            margin-right: 100px;
-            margin-left: 200px;
-            display: flex;
-            gap: 70px;
-            justify-content: flex-end;
-        }
-
-        .prof-picture {
-            width: 100px;
-            margin-right: 20px;
-            height: 90px
-        }
-
-        .center-text {
-            font-family: Montserrat, Arial;
-            text-align: center;
-            color: white;
-        }
-
-        .header-buttons{
-            display: flex;
-            justify-content: center;
-
-        }
-
-        .footer-buttons {
-            display: flex;
-            gap: 10px;
-        }
-
-        .background{
-            background-image: url(image/socialProjectBali7.webp); 
-            height: 400px; 
-            background-repeat: no-repeat; 
-            background-size: 100%;
-            image-rendering: -webkit-optimize-contrast;
-            background-size: cover;
-            background-attachment: fixed;
-
-        }
-
-        .donate-button, .contact-button {
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            font-weight: bold;
-            padding: 10px 20px;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .donate-button {
-            background-color: #a0f202;
-            color: black;
-            border: none;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .contact-button {
-            background-color: transparent;
-            color: white;
-            border: 2px solid white;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .button-logo{
-            margin-top: 70px;
-            margin-left: 40px;
-        }
-    </style>
-</head>
-
-<body>
-    <nav>
-        <div class="header-grid" style="display: grid; grid-template-columns: 1fr 1fr;">
+    <!-- navbar -->
+    <nav style="position: fixed; background-color: white; display: flex;width: 100%;align-items:center ; justify-content: space-between;z-index: 1000;">
+ 
 
             <a href="HomePageHeader.html">
-                <img class="prof-picture" src="image\socialprojectbali.png" style="position: left;">
+                <img class="prof-picture" src="image\socialprojectbali.png" style="position: left;height: 75px;display:flex;">
             </a>
-
-            <div class="navbar">
-
-                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">Home</a>
-                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">About Us</a>
-                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">Gallery</a>
-                <a href="https://www.google.com" style="text-decoration:none; color: black;" target="_self">History</a>
-            </div>
+            <ul class="navbar">
+                <li><a href="https://www.google.com" target="_self">Home</a></li>
+                <li><a href="https://www.google.com" target="_self">About Us</a></li>
+                <li><a href="https://www.google.com" target="_self">Gallery</a></li>
+                <li><a href="https://www.google.com" target="_self" style="padding-right:100px ;">History</a></li>
+            </ul>
+            
+            
         </div>
     </nav>
-
-    <section>
-            <div class = "background">
+    <!-- top homepage -->
+    <div>
+            <div class = "background" style="padding-top: 70px;">
 
                 <div class = "center-text" style= "font-size: 40px; line-height: 5px; padding-top: 70px;">
                     <h1>Social Project Bali</h1>
@@ -134,7 +50,7 @@
             </div>
     </section>
 
-    <!--Michael--> 
+    <!--Michael(homepage)--> 
     <section class="top-section">
         <div class="container">
             <div class="item">
@@ -155,10 +71,10 @@
         </div>
     </section>
     
-    <!--Ryuto-->
+    <!--Ryuto(about us)-->
     <section class="main-section">
         <div class="content">
-            <img class="icon" src="" alt="image 1">
+            <img class="icon" src="img/1.png" alt="image 1">
             <div class="text">
                 <h3>Our Vision</h3>
                 <p>Fostering a harmonious community uniting
@@ -168,7 +84,7 @@
 
         </div>
 
-        <div class="content">
+        <div class="content2">
             <div class="text2">
                 <h3>Our Mission</h3>
                 <p>Dedicated to promoting synergy in Education, Environment &
@@ -187,20 +103,72 @@
 
             </div>
         </div>
-    </section>
-</body>
+    </div>
+
+
+
+
+    <!-- gallery -->
+    <div class="container_gallery">
+        
+        <h1>Gallery</h1>
+        <div>
+            <div class="img_gallery">
+                <img src="GalleryPicture/gallery_1.png" alt="">
+                <img src="GalleryPicture/gallery_2.png" alt="">
+                <img src="GalleryPicture/gallery_3.jpeg" alt="">
+                <img src="GalleryPicture/gallery_4.jpeg" alt="">
+                <img src="GalleryPicture/gallery_5.jpg" alt="">
+                <img src="GalleryPicture/gallery_6.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- History -->
+    <div class="middle-page-top">
+        <h1>Our Past Activities</h1>
+        <div class="image-container-wrapper">
+            <div class="image-container">
+                <p class="text-top">Clean Up #120 with Trash Hero </p>
+                <img src="img/Trash Hero.png" alt="Clean Up #120">
+                <p class="text-bottom">Lapangan Renon</p>
+            </div>
+            <div class="image-container">
+                <p class="text-top">Penanaman Pohon Mangrove</p>
+                <img src="img/Mangrove.png" alt="Penanaman Pohon Mangrove">
+                <p class="text-bottom">Mangrove Tahura Ngurah Rai</p>
+            </div>
+        </div>
+    </div>
 
 
 
 
     <footer>
-        <img class="prof-picture" src="image\socialprojectbali.png" alt="image" style="height: auto;">
-        <div class = "footer-buttons">
-            <button class = "donate-button">Donate</button>
-            <button class = "contact-button" style = "color: black; border: 2px solid black;">Contact Us</button>
-        </div>
+        
+        <div class="footer" style="display: flex;justify-content: space-between;">
+            <div>
+                <div class="footer_left"style="align-items: center;display: flex;">
+                        <img class="prof-picture" src="image\socialprojectbali.png" alt="image" style="height: auto;align-items: center;">
+                    <div class = "footer-buttons">
+                        <button class = "donate-button">Donate</button>
+                        <button class = "contact-button" style = "color: black; border: 2px solid black;">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex;align-items:flex-end ;">
+                <div class="footer_right" style="align-items: flex-end;">
+                    <p style= "display: flex;justify-content: end; padding-right: 5px;align-items: flex-end;">This website was created by Code the Change DVC</p>
 
-        <p style= "display: flex; justify-content: right; padding-right: 5px;">This website was created by Code the Change DVC</p>
+                </div>
+            </div>          
+        </div>
+        
     </footer>
 
 
